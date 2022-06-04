@@ -1,0 +1,6 @@
+{
+  "name": "apollo-server-graphql",
+  "version": "1.0.0",
+  "repository": "git@github.com:kkimu/apollo-server-graphql.git",
+  "license": "MIT"
+}

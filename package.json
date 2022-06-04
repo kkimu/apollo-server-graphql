@@ -2,5 +2,18 @@
   "name": "apollo-server-graphql",
   "version": "1.0.0",
   "repository": "git@github.com:kkimu/apollo-server-graphql.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.8.2",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.39",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  }
 }
